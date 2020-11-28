@@ -1,0 +1,527 @@
+/* header */
+#header{
+  height:500px;
+  background-image: url(margaux-bellott-r5tmUSupJwA-unsplash.jpg);
+  background-position:center;
+  background-size:cover;
+  border-bottom: 4px solid #249F8D;
+ 
+}
+.container{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.logo{
+  margin-top:20px;
+  width:100px;
+}
+.titleh1{
+  margin-top:90px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow:#249F8D 3px 3px 3px; 
+}
+/* nav */
+#nav{
+background-color: #F6CB48;
+width:100%;
+height:60px;
+
+}
+nav ul {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+ display: inline-block;
+ margin:20px;
+}
+nav a{
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 100px;
+}
+nav a:hover{
+  color: #249F8D
+}
+/* .Resource */
+#Resource{
+margin-top:50px;
+}
+.Resource{
+  background-color:  #F6CB48;
+  padding-top:100px;
+  padding-bottom:50px;
+  border-top: 4px solid #249F8D;
+  border-bottom: 4px solid #249F8D;
+}
+.Resourcerow{
+  width:80%;
+  margin:auto;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.Resourcecol img{
+width: 150px;
+border-radius: 50%;
+border:4px solid #249F8D;
+}
+.Resourcecol h4{
+margin-bottom:15px;
+font-size:20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight:900;
+color: white;
+cursor:pointer;
+}
+.Resourcecol h4:hover{
+  color:#249F8D;
+}
+.Rtitleh1{
+  text-align: center;
+  color:#249F8D;
+}
+/* event */
+#Event{
+margin-top:50px;
+}
+.Etitleh1{
+  text-align: center;
+  color:#249F8D;
+  font-size:20px; 
+  font-weight:900;
+}
+.Eventtitle a{
+  padding-top: 200px;
+  text-align: center;
+  margin-top:200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.Eventtitle a:hover{
+  color: #F6CB48;
+}
+.Eventtitle{
+  padding-top:100px;
+  padding-bottom:50px;
+  height:200px;
+  background-image: url(he.jpg);
+  background-position:center;
+  background-size:cover;
+  border-top: 4px solid #249F8D;
+  border-bottom: 4px solid #249F8D;
+}
+/* FAQs */
+#FAQs{
+margin-top:50px;
+}
+.FAQsh1{
+  text-align: center;
+  color:#249F8D;
+  font-size:20px; 
+  font-weight:900;
+}
+.FAQsh4{
+  padding-top: 20px;
+  text-align: center;
+  margin-top:20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  cursor:pointer;
+}
+.FAQsh4:hover{
+  color:#249F8D;
+}
+.FAQstitle{
+  padding-top:100px;
+  padding-bottom:50px;
+  height:200px;
+  background-color:#99B3A8;
+  background-position:center;
+  background-size:cover;
+  border-top: 4px solid #249F8D;
+  border-bottom: 4px solid #249F8D;
+}
+/* Donation */
+#Donation{
+  margin-top:50px; 
+}
+.Dotitle1{
+  text-align: center;
+  color:#249F8D;
+  font-size:20px; 
+  font-weight:900;
+}
+.Dotitle{
+  padding-top:100px;
+  padding-bottom:50px;
+  height:300px;
+  background-image: url(do.JPG);
+  background-position:center;
+  background-size:cover;
+  border-top: 4px solid #249F8D;
+  border-bottom: 4px solid #249F8D;
+}
+.Doh4{
+  padding-top: 10px;
+  text-align: center;
+  margin-top:10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.Dorow{
+  padding-top:40px;
+  width:80%;
+  margin:auto;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.Docol a{
+margin-bottom:20px;
+padding-top:20px;
+font-size:20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight:900;
+color:black;
+cursor:pointer;
+background-color:  #F6CB48;
+padding: 25px;
+}
+.Docol a:hover{
+color:white;
+}
+
+#contact{
+  margin-top:200px;
+}
+
+.contitle1{
+  background-color:  #E77131;
+  margin-top:50px
+  padding-top:100px;
+  padding-bottom:50px;
+  border-top: 4px solid #249F8D;
+  border-bottom: 4px solid #249F8D;
+}
+contitle1 h1{
+  padding-top: 50px;
+  text-align: center;
+  margin-top:30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.conh4{
+  font-size:10px;
+  padding-top: 10px;
+  text-align: center;
+  margin-top:10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.socialicons{
+  margin-top:50px;
+}
+.iconrow{
+padding-top:10px;
+  width:400px;
+  margin-left:550px;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.iconcol1 img{
+width: 50px;
+}
+.iconcol2 img{
+width: 50px;
+}
+.iconcol3 img{
+width: 50px;
+}
+/**********eventpage*********/
+.eventheader{
+  padding-top:100px;
+  padding-bottom:50px;
+  height:300px;
+  background-image: url(he.jpg);
+  background-position:center;
+  background-size:cover;
+}
+.eventheader h1{
+  padding-top: 20px;
+  padding-left:50px;
+  text-align: left;
+  margin-top:30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.eventtitle1{
+  margin-top:180px;
+  text-align: center;
+  color:#249F8D;
+  font-size:20px; 
+  font-weight:900;
+}
+.eventrow{
+  padding-left:200px;
+  padding-top:10px;
+  width:70%;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.eventcol img{
+width: 150px;
+border:4px solid #F6CB48;
+}
+.eventcol h4{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+font-size:20px;
+padding:30px;
+background-color:#F6CB48;
+}
+/**********eventpage1*********/
+.efheader{
+  padding-top:100px;
+  padding-bottom:50px;
+  height:200px;
+  background-image: url(he.jpg);
+  background-position:center;
+  background-size:cover;
+}
+.efheader h1{
+  padding-top: 20px;
+  padding-left:50px;
+  text-align: left;
+  margin-top:30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.Description{
+  margin-top:300px;
+}
+.Description h1{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size:35px;
+ color: #249F8D;
+ padding: 50px;
+}
+.Description p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:20px;
+  margin-left:100px;
+  margin-right:100px;
+}
+/**********donatepage1*********/
+.Dotitle11{
+  padding-top:100px;
+  padding-bottom:50px;
+  height:200px;
+  background-image: url(do.JPG);
+  background-position:center;
+  background-size:cover;
+}
+.Dotitle11 h1{
+  padding-top: 0px;
+  padding-left:50px;
+  text-align: left;
+  margin-top:10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.Dorow1{
+  padding-top:20px;
+  width:500px;
+  margin:0px;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.Docol1 button{
+  object-position: center;
+margin-bottom:20px;
+padding-top:20px;
+font-size:20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight:900;
+cursor:pointer;
+background-color:  #F6CB48;
+padding: 25px;
+}
+.Docol1 button:focus{
+background-color: #99B3A8;
+color: white;
+cursor: pointer;
+}
+.dot{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color:black;
+}
+
+}
+.cardicons{
+  margin-top:50px;
+}
+.cardrow{
+padding-top:10px;
+  width:300px;
+  margin-left:100px;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.cardcol1 img{
+width: 50px;
+}
+.cardcol2 img{
+width: 50px;
+}
+.cardcol3 img{
+width: 50px;
+}
+.cardcol4 img{
+width: 50px;
+}
+.userdetail ul{
+  list-style: none;
+}
+.userdetail li{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size:20px;
+  color:black;
+}
+.userdetail1 ul{
+  list-style: none;
+}
+.userdetail1 li{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size:20px;
+  color:black;
+}
+.userdetail1 li input{
+  border-color: #99B3A8;
+}
+.buttonClass{
+  margin-left:50px;
+  margin-top:20px;
+  background-color: #99B3A8;
+  color:black;
+  font-size:  20px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.buttonClass:hover{
+  color:white;
+}
+.donationbody{
+margin-left:450px;
+}
+input{
+  width: 100%;
+  background-color: #99B3A8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-color: #249F8D ;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  input:focus{
+    color:#249F8D;
+    background-color:white;
+  }
+
+
+
+@media screen and (max-width:800px){
+#header{
+  height:100%;
+  background-image: url(margaux-bellott-r5tmUSupJwA-unsplash.jpg);
+  background-position:center;
+  background-size:cover;
+  border-bottom: 4px solid #249F8D;
+}
+.logo{
+  display: none;
+}
+#nav{
+background-color: #F6CB48;
+width:100%;
+height:50px;
+
+}
+nav ul {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+ display: inline-block;
+ margin:10px;
+}
+nav a{
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 5px;
+}
+.Docol a{
+margin-bottom:10px;
+padding-top:10px;
+font-size:15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight:900;
+color:black;
+cursor:pointer;
+background-color:  #F6CB48;
+padding: 5px;
+}
+.eventrow{
+  padding-left:100px;
+  padding-top:10px;
+  width:70%;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.eventcol img{
+width: 150px;
+border:4px solid #F6CB48;
+}
+.eventcol h4{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+font-size:20px;
+padding:30px;
+background-color:#F6CB48;
+}
+.donationbody{
+margin-left:0px;
+}
+}
